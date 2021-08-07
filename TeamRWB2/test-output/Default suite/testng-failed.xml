@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.teamrwb.test.TakeScreenShot">
+      <class name="com.teamrwb.test.DropdownUsingSelect">
         <methods>
-          <include name="ScreenShot"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- com.teamrwb.test.TakeScreenShot -->
+      </class> <!-- com.teamrwb.test.DropdownUsingSelect -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

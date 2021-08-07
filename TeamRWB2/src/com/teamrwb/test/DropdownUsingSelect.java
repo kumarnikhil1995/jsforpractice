@@ -15,7 +15,7 @@ public class DropdownUsingSelect {
 
 		Select s;
 		System.setProperty("webdriver.gecko.driver",
-				"C:\\Users\\Nikhil-PC\\NIKHIL'SWorkspace\\TeamRWB2\\Drivers\\geckodriver.exe");
+				"C:\\Users\\Nikhil-PC\\git\\SeleniumPractice\\TeamRWB2\\Drivers\\chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://en-gb.facebook.com/");
 		Thread.sleep(3000);
